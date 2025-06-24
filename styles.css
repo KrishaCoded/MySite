@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(254, 235, 243);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* Nav bar */
+nav {
+    background-color: rgb(254, 235, 243);
+    width: 100%;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 30px;
+    padding:0 50px;
+
+}
+
+nav li {
+    display: inline;
+    text-decoration: none;
+    width: fit-content;
+    margin-right: 20px;
+
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 5px;
+    margin-top: 5%;
+}
+
+/* classes & IDs */
+.container {
+    margin-top: 100px;
+    top:20px;
+    padding-bottom:15%;
+
+}
+
+.hero {
+    padding-bottom: 10%;;
+}
+.hero h1 {
+    margin-top: 17%;    
+    font-size: 3rem;
+    margin-left: 10%;
+
+}
+
+.about {
+    display: flex;
+}
+
+
+
+.about p{
+    display:in-line;
+    font-size: 2rem;
+    text-align: right;
+    margin-left: 50%;
+}
+
+p {
+    padding-top: 0;
+    font-size: 2rem ;
+    font-display: flex;
+    margin-left: 10%;
+    padding-left:5%;
+
+}
+
+
+h2 {
+    font-size: 40px;
+    margin-left: 10%;
+    padding-left:5%;
+    padding-bottom:1%;
+    padding-top: 5%;
+
+}
+
+button {
+    margin-left: 15%;
+    padding:1%;
+    border-radius: 10px;
+    background-color: rgb(119, 141, 251);
+    color: white;
+    font-size: 2rem;
+
+
+}
+
+
+
+
+
+
+
