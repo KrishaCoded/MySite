@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: rgb(254, 235, 243);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: raleway;
 }
 
 /* Nav bar */
@@ -62,23 +62,19 @@ nav a {
 }
 
 .about {
-    display: flex;
+    background-color: white;
+    margin-left:0%;
+    margin-right:0%;
+    padding-bottom: 5%;
+
 }
-
-
-
-.about p{
-    display:in-line;
-    font-size: 2rem;
-    text-align: right;
-    margin-left: 50%;
-}
-
+  
+  
 p {
     padding-top: 0;
     font-size: 2rem ;
-    font-display: flex;
     margin-left: 10%;
+    margin-right:10%;
     padding-left:5%;
 
 }
@@ -86,10 +82,9 @@ p {
 
 h2 {
     font-size: 40px;
-    margin-left: 10%;
-    padding-left:5%;
+    margin-left: 15%;
     padding-bottom:1%;
-    padding-top: 5%;
+    padding-top: 7%;
 
 }
 
@@ -97,11 +92,43 @@ button {
     margin-left: 15%;
     padding:1%;
     border-radius: 10px;
-    background-color: rgb(119, 141, 251);
+    background-color: #798ffb;
     color: white;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    border-color: whitesmoke;
 
 
+}
+
+/* Portfolio Section */
+.portfolio {
+    background-color: #ffffff; / Soft pastel green */
+    padding-left: 5%;
+    border-radius: 12px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.portfolio h2 {
+    margin-bottom: 20px;
+}
+
+.p-tiles {
+    margin-left: 15%;
+    margin-right: 20%;
+}
+.project-tile {
+    display: inline-block;
+    width: 270px;
+    height: 150px;
+    padding-left:25px;
+    margin-right:5%;
+    background-color: #bdb2ff; /* Soft blue-purple */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    vertical-align: top;
+    align-items: center;
 }
 
 
