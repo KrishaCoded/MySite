@@ -9,7 +9,7 @@ body {
 
 /* Nav bar */
 nav {
-    background-color: rgb(254, 235, 243);
+    background-color: #feebf3;
     width: 100%;
     padding: 30px;
     position: fixed;
@@ -48,6 +48,7 @@ nav a {
     margin-top: 100px;
     top:20px;
     padding-bottom:15%;
+    background-color: #feebf3;
 
 }
 
@@ -62,10 +63,11 @@ nav a {
 }
 
 .about {
-    background-color: white;
+    background-color: rgb(238, 252, 255);
     margin-left:0%;
     margin-right:0%;
     padding-bottom: 5%;
+    border-radius: 10px;
 
 }
   
@@ -84,7 +86,7 @@ h2 {
     font-size: 40px;
     margin-left: 15%;
     padding-bottom:1%;
-    padding-top: 7%;
+    padding-top: 10%;
 
 }
 
@@ -107,10 +109,12 @@ button {
     border-radius: 12px;
     overflow-x: auto;
     white-space: nowrap;
+    padding-bottom: 5%;
 }
 
 .portfolio h2 {
     margin-bottom: 20px;
+    padding-top: 5%;
 }
 
 .p-tiles {
@@ -129,8 +133,50 @@ button {
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
     vertical-align: top;
     align-items: center;
+    overflow-x: auto;
 }
 
+/* CONTACT SECTION */
+.contact {
+    background-color: rgb(255, 251, 245);
+    border-radius: 20px;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.contact h2 {
+    margin-top: 0;
+    padding-top: 5%;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input,  .contact textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+
+}
+
+.contact button {
+    background-color: bisque;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+}
 
 
 
