@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: rgb(254, 235, 243);
+    background-color: #feebf3;
     font-family: raleway;
 }
 
@@ -166,7 +166,7 @@ button {
 }
 
 .contact button {
-    background-color: bisque;
+    background-color: rgb(255, 211, 158);
     border: none;
     padding: 10px;
     color: white;
