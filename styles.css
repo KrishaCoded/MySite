@@ -123,8 +123,8 @@ button {
 }
 .project-tile {
     display: inline-block;
-    width: 270px;
-    height: 150px;
+    width: 290px;
+    height: 200px;
     padding-left:25px;
     margin-right:5%;
     background-color: #bdb2ff; /* Soft blue-purple */
@@ -134,6 +134,8 @@ button {
     vertical-align: top;
     align-items: center;
     overflow-x: auto;
+    color: white;
+    font-size: large;
 }
 
 /* CONTACT SECTION */
